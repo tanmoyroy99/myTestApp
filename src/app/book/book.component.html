@@ -1,0 +1,27 @@
+<div class="bookBox">
+    <h2 class="books">Books</h2>
+    <div class="searchBox">
+        <mat-form-field class="example-full-width">
+            <span matPrefix>
+                <mat-icon matSuffix>search</mat-icon>
+            </span>
+            <input type="text" matInput placeholder="Search">
+          </mat-form-field>
+    </div>
+    <h2 class="allBookText">All Books</h2>
+    
+            <div class="s1SShd EsIlz klitem" *ngFor="let info of data" >
+                    <mat-card class="infoData">
+                        <div class="UnFsfe ghJsNe">
+                                <p class="title">{{info.volumeInfo.title}}</p>
+                                <p class="subText auth"><span>Authors: </span>{{info.volumeInfo.authors[0]}}</p>
+                                <p class="subText publisher"><span>Publisher: </span>{{info.volumeInfo.publisher}}</p>
+                                <p class="subText publishedDate"><span>Published Date: </span>{{info.volumeInfo.publishedDate}}</p>
+                        </div>
+                           
+                    </mat-card>
+            </div>
+            
+       
+</div>
+

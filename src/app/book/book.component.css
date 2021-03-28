@@ -1,0 +1,51 @@
+.bookBox{
+    margin-left: 1.5%;
+}
+.books{
+    color: #000;
+    padding-left: 1%;
+}
+.searchBox{
+    margin-left: 1.5%;
+    width: 48%;
+}
+.allBookText{
+    color: #6b6666;
+    padding-left: 1%;
+    font-size: 18px;
+}
+.infoData{
+    padding: 0px 7px;
+}
+.subText{
+    font-size: 14px;
+    color: #6b6666;
+    line-height: 10px;
+}
+.EsIlz {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    transform-origin: top left;
+    vertical-align: middle;
+    margin-left: 1%;
+    margin-bottom: 17px;
+    width: 48%;
+}
+
+.UnFsfe.ghJsNe {
+    height: 100px;
+}
+
+.s1SShd {
+    border-left: 4px solid rgb(255 168 57);
+    border-radius: 8px;
+}
+
+.UnFsfe {
+    position: relative;
+    top: 0;
+}
